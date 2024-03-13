@@ -1,0 +1,12 @@
+RewriteEngine On
+
+RewriteEngine On
+
+RewriteBase /arrenda
+
+Options +FollowSymLinks -MultiViews
+# Turn mod_rewrite on
+
+RewriteRule ^([a-zA-Z0-9_-]+)$ perfil.php?b=$1
+RewriteRule ^([a-zA-Z0-9_-]+)/$ perfil.php?b=$1 
+

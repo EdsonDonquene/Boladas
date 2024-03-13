@@ -1,0 +1,525 @@
+:root
+{
+    --primary: #165a9a;
+    --dark: #071e33; 
+    --light: #4683bc;
+    --extra-light: #5d93c4;
+    --font: #051422;
+    --accent: #2f74b3;
+    --disbled : #ced4da;
+    --super-accent: #039be5;
+}
+
+@media only screen and (max-width: 1024px) 
+{
+    .signup_card
+    {
+        width: 50%;
+    }
+    .container_results, .container_banner, .container_sorting
+    {
+        width: 90%;
+    }
+    .top_slider div
+    {
+        height: 65px;
+        width: 65px;
+    }
+    .img_popup
+    {
+        left: 28% !important;
+        height: 200px !important;
+        width: 200px !important;
+    }
+}
+
+@media only screen and (max-width: 912px) 
+{
+    .container_user_sidenav .subheader
+    {
+        font-size: 60% !important;
+        color: #071e3359 !important;
+    }
+    .filter_title
+    {
+        font-size: 120% !important;
+    }
+    .container_social_icons
+    {
+        display: flex;
+        padding: 20px 55px;
+        flex-direction: row;
+        justify-content:center;
+    }
+    .container_social_icons ion-icon
+    {
+        color: var(--dark);
+        font-size: 19px !important;
+        margin: 0 10px;
+    }
+    .container_sidenav_top, .container_sidenav_bottom
+    {
+        height: 50%;
+        position: relative;
+    }
+    .container_user_sidenav
+    {
+        position: relative;
+        height: 100%;
+    }
+    .container_social_info
+    {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        color: var(--dark) !important;
+    }
+    .container_copyright_info
+    {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        color: var(--dark) !important;
+        font-weight: 100;
+    }
+    .container_copyright
+    {
+        font-size: 10px !important;
+        line-height: 16px !important;
+        font-weight: 300 !important;
+    }
+    
+    .btn#id_register
+    {
+        text-transform: none;
+    }
+    .btn#id_register .material-icons
+    {
+        color: white !important;
+    }
+    #container_mobile_menu
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        background-color:white;
+    }
+    #container_mobile_menu a.btn
+    {
+        color: white !important;
+
+    }
+    .user_name
+    {
+        font-size: 110% !important;
+    }
+    .container_user_img
+    {
+        padding: 15px 0 0 30px;
+        height: 110px;
+        display: block;
+    }
+    .container_user_img img 
+    {
+        height: 80px;
+        width: 80px;
+        border-radius: 8px;
+        border: 3px solid var(--dark);
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+}
+    .container_user_sidenav .divider
+    {
+        background-color: var(--dark);
+    }
+    .container_user_sidenav .material-icons
+    {
+        color: var(--dark) !important;
+    }
+    .container_logo_nav
+    {
+        padding: 0 30px;
+        margin: 30px 0;
+    }
+    .container_logo_nav img
+    {
+        height: 30px !important;   
+    }
+    .sidenav li>a
+    {
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        color: var(--dark) !important;
+    }
+    .sidenav
+    {
+        width: 300px !important;
+    }
+    .btn_fab .material-icons
+    {
+        font-size: 150% !important;
+    }
+    .signup_card.card
+    {
+        margin: 0 !important;
+        box-shadow: none;
+        border: none !important;
+        position: unset !important;
+        height: 100% !important;
+    }
+    .signup_card
+    {
+        width: 100%;
+        flex-direction: column;
+    }
+    .container_signup_card
+    {
+        min-height: auto;
+        padding: 0px 0;
+        background-color: white !important;
+    }
+    .container_logo
+    {
+        padding: 0;
+    }
+    .container_signup_img
+    {
+        width: 100%;
+        height: 180px !important;
+    }
+    .container_signup_img img
+    {
+        width: 100%;
+    }
+    .container_signup_form
+    {
+        width: 100%;
+        padding: 0 20px 30px 20px;
+    }
+    .container_inputs
+    {
+        padding: 0 100px !important;
+    }
+    .container_modal_new_post
+    {
+        width: 65% !important;
+    }
+    .install_btn2 .material-icons
+    {
+        margin-left: 10px;
+        color: white !important;
+
+    }   
+    .material-icons.right
+    {
+        margin: 0 !important;
+        margin-left: 7px !important;
+        font-size: 18px !important;
+    }
+    .material-icons.verified_icon
+    {
+        font-size: 14px !important; margin-top: 4px !important; margin-left: 5px !important;
+    
+    }
+    .user_name
+    {
+        display: flex !important;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .user_name span .right
+    {
+       margin-right: 10px !important;
+       margin-top: 0 !important;
+    }
+    .tabs .tab a
+    {
+        font-size: 12px !important;
+    }
+    .container_close_nav
+    {
+        position: absolute;
+        top: 5px;
+        right: 0px;
+        z-index: 1009;
+    }
+    .container_close_nav .material-icons
+    {
+        font-size: 140% !important;
+        color: var(--dark) !important;
+    }
+    .container_results
+    {
+        width: 100%;
+        padding: 0 25px !important;
+        scroll-behavior: smooth;
+    }
+    .single_post
+    {
+        width: 300px !important;
+    }
+    .container_main_content
+    {
+        width: 100%;
+        padding-top: 0 !important;
+    }
+    .container_posts_info 
+    {
+        width: 100%;
+    }
+    .container_user_info p
+    {
+       
+        font-size: 95% !important;
+    }
+    .post_reveal
+    {
+        padding: 10px 25px !important;
+        overflow: auto !important;
+    }
+ 
+    .container_banner
+    {
+        margin: 20px auto 0 auto !important;
+        width: 100%;
+        padding: 0 10px;
+    }
+    .container_sorting
+    {
+        width: 100%;
+        padding: 10px;
+    }
+    .single_post {
+        max-width: 200px !important;
+    }
+    .success_modal
+    {
+        width: 80%;
+        height: 90% !important;
+    }
+    .container_posts_info
+    {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .container_ads_space
+    {
+        width: auto !important;
+    }
+    .container_logo img
+    {
+        margin: 0 !important;
+    }
+    .description_background
+    {
+        width: 100%;
+        height: 100%;        
+    }
+    .post_description_b
+    {
+        flex-direction: column;
+    }
+    .post_images_b, .post_details_b
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .img_popup
+    {
+        left: 20% !important;
+        height: 500px !important;
+        width: 500px !important;
+    }
+    
+  
+}
+
+@media only screen and (max-width: 590px)
+{
+    .container_post_btn button 
+    {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px !important;
+    }
+    .container_post_btn button .material-icons
+    {
+        color: white !important;
+    }
+
+    .img_popup
+    {
+        left: 21% !important;
+        height: 300px !important;
+        width: 300px !important;
+    }
+    .top_slider div
+    {
+        height: 70px;
+        width: 70px;
+    }
+    .success_modal
+    {
+        width: 100%;
+        height: 100% !important;
+        padding: 20px !important;
+    }
+    .container_results
+    {
+        padding: 5px 0 !important;
+        justify-content: center;
+    }
+    .user_info_row
+    {
+        padding: 10px !important;
+    }
+    
+    .container_new_post
+    {
+        height: 100vh;
+    }
+    .container_signup_card
+    {
+        height: auto;
+    }
+    .tabs .material-icons
+    {
+        margin: 0 !important;
+        font-size: 24px !important;
+    }
+    .modal
+    {
+        width: 100% !important;
+        max-height: 100% !important;
+        top: 0 !important;
+    }
+    .container_new_post_inputs
+    {
+        padding: 25px 15px;
+    }
+    .select_category .select-wrapper input.select-dropdown 
+    {
+        width: 85% !important;
+    }
+    .container_social_icons
+    {
+        display: flex;
+        padding: 20px 55px;
+        flex-direction: row;
+        justify-content:center;
+    }
+    .container_social_icons ion-icon
+    {
+        font-size: 15px;
+        margin: 0 10px;
+    }
+    .container_sidenav_top, .container_sidenav_bottom
+    {
+        height: 50%;
+        position: relative;
+
+    }
+    .container_social_info
+    {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+    .container_copyright
+    {
+        font-size: 10px !important;
+        line-height: 16px !important;
+        font-weight: 300 !important;
+    }
+    .btn#id_register
+    {
+        text-transform: none;
+    }
+    #container_mobile_menu
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    #container_mobile_menu a.btn
+    {
+        color: white !important;
+    }
+    .container_logo_nav
+    {
+        padding: 0 30px;
+        margin: 30px 0;
+        margin-bottom: 50px !important;
+    }
+    .container_logo_nav img
+    {
+        height: 30px !important;   
+    }
+    .sidenav
+    {
+        width: 250px !important;
+    }
+    .btn_fab .material-icons
+    {
+        font-size: 180% !important;
+    }
+    .btn-large
+    {
+        font-size: 18px !important;
+        line-height: 45px !important;
+    }
+    .btn-floating.btn-large
+    {
+        width: 55px !important;
+        height: 55px !important;
+    }
+   
+    .container_signup_img
+    {
+        width: 100%;
+    }
+    .container_inputs
+    {
+        padding: 0 20px !important;
+    }
+    .container_signup_card
+    {
+        width: 100%;
+        padding: 0px 0;
+    }
+    .signup_card.card
+    {
+        width: 100%;
+        height: 100vh !important;
+        border-radius: 0 !important;
+        margin: 0 !important;
+    }
+    .user_name span .right
+    {
+       margin-right: 18px !important;
+       margin-top: 0 !important;
+    }
+    .user_name .material-icons.right
+    {
+        font-size: 14px !important;
+    }
+    
+ 
+}
+
+@media only screen and (max-width: 320px)
+{
+    .img_popup
+    {
+        left: 30% !important;
+        height: 200px !important;
+        width: 200px !important;
+    }
+}

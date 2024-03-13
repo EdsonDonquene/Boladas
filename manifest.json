@@ -1,0 +1,70 @@
+{
+    "display_override": ["standalone"],
+    "name":"Dakipraki",
+    "description":"Dakipraki mobile WebApp",
+    "short_name":"Dp",
+    "start_url": "index.php",
+    "display": "fullscreen",
+    "scope": ".",
+    "background_color": "#fff",
+    "theme_color" : "#fff",
+    "orientation": "portrait-primary",
+    "offline_enabled":"true",
+    "icons":[
+        {
+            "src":"resources/img/logos/icons/icon-01.svg",
+            "type":"image/svg",
+            "sizes":"73x73",
+            "purpose":"any"
+        },
+        {
+            "src":"resources/img/logos/icons/icon-02.svg",
+            "type":"image/svg",
+            "sizes":"144x144",
+            "purpose":"any"
+
+        },
+        {
+            "src":"resources/img/logos/icons/icon-03.svg",
+            "type":"image/svg",
+            "sizes":"153x153",
+            "purpose":"any"
+
+        },
+        {
+            "src":"resources/img/logos/icons/icon-04.svg",
+            "type":"image/svg",
+            "sizes":"193x193",
+            "purpose":"any"
+
+        },
+        {
+            "src":"resources/img/logos/icons/icon-05.svg",
+            "type":"image/svg",
+            "sizes":"385x385",
+            "purpose":"any"
+
+        },
+        {
+            "src":"resources/img/logos/icons/icon-06.svg",
+            "type":"image/svg",
+            "sizes":"513x513",
+            "purpose":"any"
+
+        },
+        {
+            "src":"resources/img/logos/icons/icon-06.png",
+            "type":"image/png",
+            "sizes":"512x512",
+            "purpose":"any"
+
+        },
+        {
+            "src":"resources/img/logos/icons/icon-07.svg",
+            "type":"image/svg",
+            "sizes":"385x385",
+            "purpose":"maskable"
+
+        }
+    ]
+}
